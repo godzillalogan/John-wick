@@ -1,0 +1,92 @@
+*{
+/*   border:solid 1px; */
+  font-family:微軟正黑體;
+  position:relative;
+}
+html,body{
+  with:100%;height:100%;
+  padding:0px;margin:0px;  
+}
+body{
+  background-color:#d1d1d1;
+  border-top:solid 20px #363d80;
+  border-bottom:solid 20px #363d80;
+  
+  box-sizing:border-box;
+  overflow:hidden;
+  
+}
+.namecard{
+  width:500px;height:255px;
+  padding:20px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:150px;
+  background-color:#eee;
+  
+  letter-spacing:1px;
+  
+  font-weight:100;
+  color:#666;
+  overflow:hidden;
+  border:solid 1px rgba(0,0,0,0.15):
+  border-radius:6px;
+  box-shadow:0px 0px 15px  rgba(0,0,0,0.2
+  );
+}
+.namecard h2{
+  font-size:25px;
+  font-weight:700;
+}
+.namecard h2 span{
+  font-size:12px;
+}
+.namecard h5{
+  color:#9c2f21;
+  font-weight:500;
+}
+.namecard p{
+  font-size:12px;
+  line-height:22px;
+}
+
+.circle{
+  width:50px;height:300px;
+  border-radius:100%;
+  position:absolute;
+  
+}
+.circle1{
+  right:365px;
+  bottom:-10px;
+  width:100px;height:100px;
+  background-color:#363d80
+}
+.circle2{
+  width:60px;height:60px;
+  right:-30px;
+  top:-30px;
+  border:solid 3px #363d80;
+}
+.page_title{
+  text-align: center;
+  color:#555;
+  font-weight:500;
+}
+.mark{
+  font-size:300px;
+  position:absolute;
+  bottom:0px;
+  left:250px;
+  font-weight:100;
+  color:rgba(0,0,0,0.035)
+}
+.ID-photo {
+    display: black;
+    width: 300px;
+    height: 400px;
+    background-image: url('https://vignette.wikia.nocookie.net/john-wick8561/images/3/3e/John-wick-chapter-2.jpeg/revision/latest/scale-to-width-down/1000?cb=20190826173857');
+    background-repeat: no-repeat;
+    right:1px;
+    background-size: 250px;
+    position: absolute;
